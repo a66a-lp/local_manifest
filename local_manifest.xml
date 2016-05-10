@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="CyanogenMod/android_system_core" />
+  <remove-project name="CyanogenMod/android_system_netd" />
+  <remove-project name="CyanogenMod/android_external_tinycompress" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />	
+  <remove-project name="CyanogenMod/android_packages_services_Telecomm" />
+  <remove-project name="CyanogenMod/android_packages_services_Telephony" />
+ 
+  <project path="system/core" name="a66a/android_system_core" remote="github" revision="cm-12.1"/>
+  <project path="system/netd" name="a66a/android_system_netd" remote="github" revision="cm-12.1"/>
+  <project path="external/tinycompress" name="a66a/android_external_tinycompress" remote="github" revision="cm-12.1"/>
+  <project path="frameworks/av" name="a66a/android_frameworks_av" remote="github" revision="cm-12.1"/>
+  <project path="frameworks/base" name="a66a/android_frameworks_base" remote="github" revision="cm-12.1"/>
+  <project path="frameworks/opt/telephony" name="a66a/android_frameworks_opt_telephony" remote="github" revision="cm-12.1"/>
+  <project path="packages/apps/CMUpdater" name="a66a/android_packages_apps_CMUpdater" remote="github" revision="cm-12.1"/>
+  <project path="packages/services/Telecomm" name="a66a/android_packages_services_Telecomm" remote="github" revision="cm-12.1"/>
+  <project path="packages/services/Telephony" name="a66a/android_packages_services_Telephony" remote="github" revision="cm-12.1"/>
+  <project path="device/evercoss/a66a" name="a66a/android_device_evercoss_a66a" remote="github" revision="cm-12.1"/>
+  <project path="vendor/evercoss/a66a" name="a66a/android_vendor_evercoss_a66a" remote="github" revision="cm-12.1"/>
+</manifest>
